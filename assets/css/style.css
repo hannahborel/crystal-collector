@@ -1,0 +1,34 @@
+html{
+    min-height: 100%;
+}
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(164,241,254,0.7917542016806722) 50%, rgba(5,135,120,1) 100%);
+}
+.jumbotron{
+    background-color: white;
+    height: 5%;
+}
+.title{
+    font-family: 'Changa', sans-serif;
+}
+
+.card-header{
+    background-color: #4cb4ab ;
+    color: white;
+}
+.crystal{
+    border: 1px solid #eee;
+    box-shadow: 0px 2px 2px #CCD1D1 ; 
+}
+
+.green{
+    height: 99%;
+    width: 100%;
+}
+
+.crystal:hover{
+    transform: scale(1.2);
+}
+
+

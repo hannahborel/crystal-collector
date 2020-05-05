@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>CRYSTAL COLLECTOR</title>
+</head>
+<body>
+
+    <div class="container mt-4 w-50"> 
+        <div class="jumbotron">
+            <div class="container text-center">
+              <h1 class="title display-4">CRYSTAL COLLECTOR</h1>
+            </div>
+          </div>
+        
+          <div class="row">
+    
+            <!-- Instructions Container -->
+            <div class="col-sm-12">
+              <div class="card mb-4">
+                <div class="card-header">
+                  <strong>HOW TO PLAY</strong>
+                </div>
+                <div class="card-body">
+                  <p>
+                    <small>You will be given a random number at the start of the game. There are four crystals below.
+                      By clicking on a crystal you will add a specific amount of points to your total score.
+                      You win the game by matching your total score to random number, you lose the game if
+                      your total score goes above the random number. The value of each crystal is hidden from
+                      you until you click on it. Each time when the game starts, the game will change the values
+                      of each crystal</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Scores Container -->
+    <div class="container px-0">
+        <div class="row mb-3 align-self-center" style="margin: auto">
+            <div class="card-deck w-100 h-75 mx-auto">
+                <div class="col-4 pl-0">
+                    <div class="card mx-auto">
+                        <div class="card-header text-center"> TARGET SCORE </div>
+                            <div class="card-body">
+                            <h1 class="text-center" id= "target-score"> 0 </h1>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mx-auto">
+                        <div class="card-header text-center"> SCORE BOARD </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Wins:</strong> <span class="text-center" id= "wins"></span></li>
+                                <li class="list-group-item"><strong>Losses: </strong><span class="text-center" id= "losses"></span>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-4 pr-0">
+                     <div class="card mx-auto">
+                         <div class="card-header text-center">USER SCORE</div>
+                            <div class="card-body ">
+                            <h1 class="text-center" id= "user-score">  </h1>
+                            </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+            
+
+              <!----------------- Crystals -------------- -->
+    
+           <div class="row d-flex justify-content-between">
+               <div class="col-sm-3">
+                   <div class="card crystal py-3 mr-2">
+                       <img src="assets/images/download-1.jpg" class="w-75 mx-auto" id = "purple">
+                   </div>
+               </div>
+               <div class="col-sm-3">
+                   <div class="card crystal py-3 mr-2">
+                       <img src="assets/images/download-2.jpg" class="w-75 mx-auto"id = "blue">
+                   </div>
+               </div>
+               <div class="col-sm-3">
+                   <div class="card crystal py-3 mr-2">
+                       <img src="assets/images/download.jpg" class="w-75 mx-auto"id = "red">
+                   </div>
+               </div>
+               <div class="col-sm-3">
+                   <div class="card crystal green py-2">
+                       <img src="assets/images/images.jpg" class="green w-75 mx-auto" id = "green">
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+   
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/logic.js"></script>
+    
+</body>
+</html>
