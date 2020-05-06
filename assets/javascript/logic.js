@@ -80,15 +80,14 @@ checkScore(userScore)
 let checkScore = function(){
     console.log('checkScore running')
 if(targetScore === userScore){
-    wins++
-    alert("You Hit the Target! Great Job!")
+    wins++ 
     console.log('wins: ', wins)
     startGame()
 
 } else if(targetScore < userScore){
     losses++
-    console.log('losses: ', losses)
-    alert("You Went Over")
+    $('#loss-modal').modal('show')
+    console.log('losses: ', losses) 
     startGame()
    
 } else{
