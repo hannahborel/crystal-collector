@@ -86,7 +86,6 @@ if(targetScore === userScore){
 
 } else if(targetScore < userScore){
     losses++
-    $('#loss-modal').modal('show')
     console.log('losses: ', losses) 
     startGame()
    
