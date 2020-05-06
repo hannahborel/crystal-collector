@@ -12,10 +12,15 @@ body{
 .title{
     font-family: 'Changa', sans-serif;
 }
-
 .card-header{
     background-color: #4cb4ab ;
     color: white;
+}
+.target{
+    background:#eb3d73;
+}
+.user{
+    background: #4f98ff;
 }
 .crystal{
     border: 1px solid #eee;
@@ -23,7 +28,7 @@ body{
 }
 
 .green{
-    height: 99%;
+    height: 98.1%;
     width: 100%;
 }
 
